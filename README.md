@@ -1,21 +1,12 @@
-📝 `NOTE` Use this template to initialize the contents of a README.md file for your application. As you work on your assignment over the course of the week, update the required or stretch features lists to indicate which features you have completed by changing `[ ]` to `[x]`. (🚫 Remove this paragraph before submitting your assignment.)
 
 ## Unit Assignment: Globetrotter
 
-Submitted by: Joshua
+Submitted by: Joshua Donatien
 
 Estimated time spent: 9 hours
 
 Deployed Application (optional): [Globetrotter Deployed Site]()
 
-<div>
-    <a href="https://www.loom.com/share/9180debd5cf24c779eff4ad520f11415">
-      <p>Loom | Free Screen & Video Recording Software | Loom - 6 June 2025 - Watch Video</p>
-    </a>
-    <a href="https://www.loom.com/share/9180debd5cf24c779eff4ad520f11415">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/9180debd5cf24c779eff4ad520f11415-d58c685acd468e78-full-play.gif">
-    </a>
-  </div>
 
 ### Application Features
 
@@ -95,22 +86,28 @@ Deployed Application (optional): [Globetrotter Deployed Site]()
 ### Walkthrough Video
 
 `TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
+<div>
+    <a href="https://www.loom.com/share/9180debd5cf24c779eff4ad520f11415">
+      <p>Loom | Free Screen & Video Recording Software | Loom - 6 June 2025 - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/9180debd5cf24c779eff4ad520f11415">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/9180debd5cf24c779eff4ad520f11415-d58c685acd468e78-full-play.gif">
+    </a>
+  </div>
 
-`ADD_EMBEDDED_CODE_HERE`
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
-
-Add your response here
+Yes they did prepare me especially Ales's teaching on CSS.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+I would definitely want to integrate a simple interactive map for the attractions and event locations. Imagine being able to click on an event and see its exact spot on a map – that would be really useful. This would probably involve exploring a basic mapping API if allowed.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+What went well was the actual presentation and delivery next time I want to deliver a better project
 
 ### Open-source libraries used
 
@@ -118,4 +115,4 @@ Add your response here
 
 ### Shout out
 
-Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+Shout out Alex!
