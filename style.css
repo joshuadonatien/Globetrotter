@@ -1,0 +1,467 @@
+body{
+    font: Georgia, serif;
+    color: #4a2000;
+    background-color: #FF8C;
+    margin: 5;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    /* box-sizing: border-box; */
+}
+.banner{
+    background-color: maroon;
+    color: goldenrod;
+    text-align: center;
+    padding: 25px 0;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+    font:  serif; 
+    font-size: 50px; 
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4); 
+    border-bottom: 8px solid goldenrod; /* A strong gold border below the banner */
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); Soft shadow for a lifted look */
+}
+
+.nav{
+    background-color: #4a2000;
+    padding: 25px 0;
+    list-style: none;
+    text-align: center;
+    border-bottom: 8px solid goldenrod;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.nav nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.nav nav ul li{
+    margin: 0 35px;
+}
+
+.nav nav ul li a{
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: larger;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.home-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;    /* Center them horizontally */
+    max-width: 90%;       /* Constrain width */
+    margin: 40px auto;      /* Center the content block itself */
+}
+
+/* Image Styling - For your "Town Hall" image */
+img[alt="Town hall"] {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+    border: 8px solid #D2b4bc; /* Thick, rustic border */
+    border-radius: 10px; /* Slightly rounded corners for a softer, framed look */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.25); /* Stronger shadow for depth */
+    margin: 40px auto; /* Center the image and add vertical space */
+    display: flex;
+    justify-content: center;
+    /* transition: transform 0.3s ease-in-out; /* Smooth scale on hover */
+} 
+.UG-grid{
+    margin: 20px auto;
+    border-radius: 18px;        /* Rounded corners */
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.UG_main{
+    border: 5px solid #D2b4bc;
+    border-radius: 20px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 300px;            /* Grow, Shrink, Base width: allows items to be around 300px wide */                              
+    width: 90%;
+    max-width: 350px; 
+    min-width: 280px;   
+    display: flex;        
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.UG_head{
+    font: serif;
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px #D2b4bc;
+}
+
+img[alt="UGpic"]{
+    border: 5px solid #D2b4bc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+}
+
+.Add {
+    font: italic;
+    color: #333;
+    margin-bottom: 5px;
+}
+.Desc {
+    color: #333;
+}
+.sub-title{
+    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.attractions-grid {
+    margin: 20px auto; /* Centers the grid horizontally, adds vertical space */
+    padding: 30px;             /* Internal spacing around the content */
+    border-radius: 8px;        /* Rounded corners */
+    display: flex;             /* **Flexbox Container:** Enables flexible layout for its children */
+    flex-wrap: wrap;           /* **Flexbox Property:** Allows attraction cards to wrap to the next line */
+    justify-content: center;   /* **Flexbox Property:** Centers cards horizontally when they don't fill a row */
+    gap: 30px;                 /* **Flexbox Property:** Creates consistent space between attraction cards */
+}
+.attraction-card {
+    background-color: #FFF8DC; /* A softer background for each card */
+    border: 1px solid #D2b4bc;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;               /* **Flexbox Item Properties:** How each card behaves within the grid */
+    flex: 1 1 300px;            /* Grow, Shrink, Base width: allows cards to be around 300px wide */     /* They will grow to fill space and shrink if needed */
+    width: 90%;
+    max-width: 350px; 
+    min-width: 280px;           /* Ensures cards don't get too small on tiny screens */
+    display: flex;              
+    flex-direction: column;     /* **Flexbox Property:** Stacks its internal elements (h3, img, p) vertically */
+    align-items: center;        /* **Flexbox Property:** Horizontally centers content (like the image) inside the card */
+    text-align: center;         /* Ensures text inside is centered too */
+}
+
+.TA_head {
+    font-weight: bold;      /* Corrected: Use font-weight for bolding */
+    text-align: center;
+    color: maroon;   /* Use your theme maroon color */
+    font-size: 1.5em;       /* Make it a good size */
+    margin-bottom: 15px;    /* Space below the heading */
+}
+
+.TA_txt {
+    text-align: center;
+    color: var(--dark-brown); /* Use your theme dark brown color */
+    font-size: 1em;           /* Standard readability */
+    margin-top: 0;            /* Remove extra top margin */
+    padding: 0 10px;          /* Little padding on sides to prevent text touching edges */
+}
+
+main img {
+    border: 6px solid #D2b4bc;       /* Rustic border around images */
+    border-radius: 8px;                 
+    margin-bottom: 20px;                
+    margin-left: auto;                  
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: auto;                 
+}  
+
+main p {
+    color: #4a2000;   /* Dark brown text for blurbs */
+    font-style: italic;         
+    text-align: center;         
+    font-size: 1.1em;           
+    margin-bottom: 40px;        
+    padding: 0 20px;            
+}  
+
+.links {
+    color: #4a2000;
+    font: bold;
+    padding: 8px 15px;
+    border: 2px thin #4a2000;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+}
+
+.gallery-grid {
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;        /* Center content within each gallery item */
+}
+/* Styles for each individual gallery item (the div containing image and blurb) */
+.gallery-item {
+    background-color: #FFF8DC; /* A softer background for each item */
+    border: 1px solid #D2b4bc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    flex: 1 1 300px;            /* Grow, Shrink, Base width: allows items to be around 300px wide */                              
+    text-align: center; 
+    width: 90%;
+    max-width: 350px; /* On wider screens, allows two items per row with gap */
+    min-width: 280px;           /* Ensures items don't get too small on tiny screens */
+    display: flex;              
+    flex-direction: column;     /* **Flexbox Property:** Stacks its internal elements (h3, img, p) vertically */
+    align-items: center;        /* **Flexbox Property:** Horizontally centers content (like the image) inside the card */
+}
+
+
+/* Styles for images within gallery items */
+.gallery-item img {
+    border: 6px solid #D2b4bc; /* Rustic border around images */
+    border-radius: 8px;                 /* Slightly rounded corners */
+    margin-bottom: 15px;                /* Space below each image within its item */
+    margin-left: auto;                  /* Centers the image horizontally */
+    margin-right: auto;                 /* Centers the image horizontally */
+    width: 100%;
+    height: 150px;
+}
+
+/* Styles for paragraph blurbs within gallery items */
+.gallery-item p {
+    color: #4a2000;
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 0;           /* Reset margin-bottom as gap handles overall spacing */
+    padding: 0 10px;            /* Small horizontal padding within the blurb */
+}
+
+/* Tablet Styles (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+        font-size: 80px; /* Larger font for tablet */
+        padding: 20px 0;
+    }
+    .nav nav ul {
+        flex-direction: row; /* Horizontal layout for tablet */
+        justify-content: center; /* Center nav items */
+    }
+    .nav nav ul li {
+        margin: 0 15px; /* Horizontal margin between nav items */
+    }
+    .home-content img {
+        width: 70%; /* Wider image for tablet */
+        max-width: 500px; /* Limit max size */
+    }
+    .home-content p {
+        padding: 0 20px; /* More padding for wider text block */
+    }
+    .attractions-grid {
+        flex-direction: row; /* Arrange items in rows */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: space-around; /* Distribute space around items */
+        padding: 20px;
+    }
+    main { /* This targets the container holding the cards */
+        flex-direction: row; /* Arrange items in rows */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: space-around; /* Distribute space around items */
+        padding: 20px;
+    }
+
+    .attraction-card {
+        width: 45%; /* Approx 2 items per row (45% + 45% = 90%, leaving 10% for space) */
+        margin-bottom: 30px; /* Space between rows */
+        max-width: 450px; /* Limit individual card width */
+    }
+    .UG_main{
+        width: 45%; /* Approx 2 items per row (45% + 45% = 90%, leaving 10% for space) */
+        margin-bottom: 30px; /* Space between rows */
+        max-width: 450px; /* Limit individual card width */
+    }
+    .gallery-item {
+        width: 45%; /* Approx 2 items per row (45% + 45% = 90%, leaving 10% for space) */
+        margin-bottom: 30px; /* Space between rows */
+        max-width: 450px; /* Limit individual card width */
+    }
+
+    .attraction-card img {
+        height: 200px; /* Slightly taller images for tablet */
+    } 
+    .UG_main img {
+        height: 200px; /* Slightly taller images for tablet */
+    } 
+    .gallery-item img {
+        height: 200px; /* Slightly taller images for tablet */
+    }
+
+    .sub-title {
+        font-size: 50px; /* Larger for tablet */
+    }
+}
+
+/* Desktop Styles (1024px and up) */
+@media (min-width: 1024px) {
+    .banner {
+        font-size: 125px; /* Full desktop font size */
+        padding: 25px 0;
+    }
+
+    /* Navigation - Desktop */
+    .nav nav ul {
+        gap: 35px; /* Wider spacing for desktop nav */
+    }
+    .nav nav ul li {
+        margin: 0 35px; /* Restore original desktop margin */
+    }
+
+    .home-content img {
+        width: 500px; /* Specific width for desktop */
+        max-width: none; /* Remove max-width constraint */
+    }
+    .home-content p {
+        padding: 0 50px; /* More padding for desktop text block */
+        max-width: 800px; /* Control max width of the text block */
+    }
+
+    .attractions-grid{
+        justify-content: center; /* Center content horizontally */
+        padding: 30px;
+    }
+    
+    main { /* This targets the container holding the cards */
+        justify-content: center; /* Center content horizontally */
+        padding: 30px;
+    }
+
+    .attraction-card{
+        width: 30%; 
+        margin-bottom: 40px;
+        max-width: 400px; 
+    } 
+    .gallery-item {
+        width: 30%; /* Approx 3 items per row */
+        margin-bottom: 40px;
+        max-width: 400px; /* Limit individual card width */
+    }
+    .UG_main { /* Keep UG_main to 2 columns for better readability on desktop */
+        width: 45%;
+        margin-bottom: 40px;
+        max-width: 550px;
+    }
+
+    .attraction-card img{
+        height: 250px; /* Full desktop image height */
+    } 
+    .UG_main img{
+        height: 250px; /* Full desktop image height */
+    } 
+    .gallery-item img {
+        height: 250px; /* Full desktop image height */
+    }
+
+    .sub-title {
+        font-size: 60px; /* Larger for desktop */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The main title for the attractions page */
+
+
+/* Styles for each individual attraction card (the div wrapper) */
+
+
+
+
+
+
+
+
+
+
+
+/* .sub-title {
+    flex-basis: 100%;          
+    text-align: center;
+    color: maroon;
+    font-family: Playfair Display, serif;
+    font-size: 2.5em;
+    border-bottom: 2px solid #D2b4bc;
+    padding-bottom: 10px;
+    margin-top: 0;             
+    margin-bottom: 40px;       
+} */
+
+/* <!-- Main Content Container (main):
+3. Styling Your Main Attraction Content
+
+Here's how to make each attraction stand out.
+
+For the main content area:
+
+Set a maximum width (e.g., 900 pixels) so content doesn't get too wide on big screens.
+Center this section on the page (set margin-left and margin-right to auto, and margin-top and margin-bottom for spacing).
+Set its background color to a clean white.
+Add padding inside (e.g., 25 pixels) for space around the text and images.
+Give it a subtle light tan border.
+Apply a soft shadow to it.
+Give it slightly rounded corners.
+Why this helps: Creates a clear, well-defined area for your attraction information.
+For the h1 with the class sub-title (your "Top Attractions" heading):
+
+
+"Learn More" Links (a within main):
+
+Set text color to your maroon.
+Remove underlines (text-decoration: none).
+Make the font bold.
+Add internal padding (e.g., 8px 15px) to make them feel like buttons.
+Set background color to your gold.
+Set text color to your dark brown.
+Add a thin dark brown border.
+Give them rounded corners (e.g., 5 pixels).
+Add margin-top (e.g., 15 pixels) to separate from the description.
+Make it an inline-block display so padding and margins work correctly.
+Add smooth transitions for hover effects.
+Purpose: Styles the action links in your theme colors, making them clickable and appealing.
+"Learn More" Link Hover/Focus States (a:hover, a:focus for these links):
+
+Change background color to maroon.
+Change text color to gold.
+Change border color to gold.
+Apply a slight lift effect (transform: translateY(-2px)).
+Purpose: Provides clear feedback when users interact with the event links. --> */
