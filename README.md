@@ -85,7 +85,6 @@ Deployed Application (optional): [Globetrotter Deployed Site]()
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
 <div>
     <a href="https://www.loom.com/share/9180debd5cf24c779eff4ad520f11415">
       <p>Loom | Free Screen & Video Recording Software | Loom - 6 June 2025 - Watch Video</p>
